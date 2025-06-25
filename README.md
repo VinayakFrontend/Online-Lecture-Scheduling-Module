@@ -8,7 +8,7 @@ This is a MERN stack-based online lecture scheduling system built for the Ideama
 ## 🚀 Live Demo
 
 - **Frontend (Vercel)**: [https://online-lecture-scheduling-module-five.vercel.app](https://online-lecture-scheduling-module-five.vercel.app)
-- **Backend (Render)**: `[https://your-backend-api-url.com](https://online-lecture-scheduling-module-6nzr.onrender.com/)`
+- **Backend (Render)**: [https://your-backend-api-url.com](https://online-lecture-scheduling-module-6nzr.onrender.com/)
 
 ---
 
@@ -65,7 +65,7 @@ touch .env  # Add MONGO_URI and JWT_SECRET
 node server.js
 
 # Frontend setup
-cd client
+cd frontend
 npm install
 npm run dev
 \`\`\`
