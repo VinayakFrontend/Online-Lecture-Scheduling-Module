@@ -88,5 +88,6 @@ GET /api/lectures – List all lectures
 Instructor
 GET /api/lectures/instructor/:id – Instructor's lectures
 
-🎥 Demo Video
-🔗 Google Drive Link to Screen Recording 
+🎥 Demo Video https://drive.google.com/file/d/1NMx7_LyznABiNMS379crG2FeI2srHwaM/view?usp=drive_link
+🔗 Google Drive Link to Screen Recording
+
