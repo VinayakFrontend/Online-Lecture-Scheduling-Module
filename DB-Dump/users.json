@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "685bdbea0ddce78342004c4e"
+  },
+  "name": "Vinayak Gupta",
+  "email": "vinayakgupta1614@gmail.com",
+  "password": "$2b$10$/16kVTWLgNZsh8WXmCTfuugQuQiYWxy0ZAUUUAmPAxL28SrElc2Yy",
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bdca40ddce78342004c60"
+  },
+  "name": "komal Gupta",
+  "email": "komal@gmail.com",
+  "password": "$2b$10$l3NtjbWkzeVYQMmRzEK1ieqgjhH7fT3SaNDtrUwQqUIaNkYL7heu6",
+  "role": "instructor",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bf00da7d76b6419128b67"
+  },
+  "name": "vanna",
+  "email": "vanna@gmail.com",
+  "password": "$2b$10$qTm6up1yIq9ollR6gFxnZe.O2PKcrq9lhUKhEY5pb5UR7vaniOWx2",
+  "role": "instructor",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bf28da7d76b6419128b8c"
+  },
+  "name": "Rajesh Gandhi",
+  "email": "rajesh@gmail.com",
+  "password": "$2b$10$Ad.ElS9ayYQ4kZ/KWRlzWONVHvPSRilnTWMU121DSPi./DFmKQW/u",
+  "role": "instructor",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bf3a5a7d76b6419128ba5"
+  },
+  "name": "Aditi ",
+  "email": "aditivishwakarma503@gmail.com",
+  "password": "$2b$10$K6gcS8czap6tW38tkoaFNOFlBwwIMDFWFrsrCoWnCIJR4a0QHIUPO",
+  "role": "instructor",
+  "__v": 0
+}]

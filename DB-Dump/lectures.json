@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "685bdcd50ddce78342004c6c"
+  },
+  "courseId": {
+    "$oid": "685bdc4a0ddce78342004c57"
+  },
+  "instructorId": {
+    "$oid": "685bdca40ddce78342004c60"
+  },
+  "date": "2025-06-25",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bdd530ddce78342004c8a"
+  },
+  "courseId": {
+    "$oid": "685bdd380ddce78342004c7c"
+  },
+  "instructorId": {
+    "$oid": "685bdca40ddce78342004c60"
+  },
+  "date": "2025-06-26",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bf11ea7d76b6419128b73"
+  },
+  "courseId": {
+    "$oid": "685bdc4a0ddce78342004c57"
+  },
+  "instructorId": {
+    "$oid": "685bf00da7d76b6419128b67"
+  },
+  "date": "2025-06-26",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bf239a7d76b6419128b84"
+  },
+  "courseId": {
+    "$oid": "685bdd380ddce78342004c7c"
+  },
+  "instructorId": {
+    "$oid": "685bf00da7d76b6419128b67"
+  },
+  "date": "2025-06-28",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685bf2fea7d76b6419128b9d"
+  },
+  "courseId": {
+    "$oid": "685bf2eba7d76b6419128b95"
+  },
+  "instructorId": {
+    "$oid": "685bf28da7d76b6419128b8c"
+  },
+  "date": "2025-06-26",
+  "__v": 0
+}]
