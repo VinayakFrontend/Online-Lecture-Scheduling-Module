@@ -40,7 +40,7 @@ This is a MERN stack-based online lecture scheduling system built for the Ideama
 ## 📁 Project Structure
 
 \`\`\`
-client/           # React frontend (Vite)
+frontend/           # React frontend (Vite)
   └── src/
        ├── components/
        ├── pages/
