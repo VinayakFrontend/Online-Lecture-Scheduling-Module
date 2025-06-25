@@ -19,7 +19,7 @@ export default function AdminDashboard() {
 
     // Fetch lectures
     axios
-      .get("http://localhost:5000/api/lectures")
+      .get("https://online-lecture-scheduling-module-6nzr.onrender.com/api/lectures")
       .then((res) => setLectures(res.data))
       .catch((err) => console.error("Failed to fetch lectures", err));
   }, []);
