@@ -1,4 +1,3 @@
-
 # 📚 Online Lecture Scheduling Module
 
 This is a MERN stack-based online lecture scheduling system built for the Ideamagix internship assignment. It includes an admin panel to manage instructors, courses, and lecture assignments, and an instructor panel to view scheduled lectures.
@@ -7,11 +6,10 @@ This is a MERN stack-based online lecture scheduling system built for the Ideama
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel)**: [https://online-lecture-scheduling-module-five.vercel.app](https://online-lecture-scheduling-module-five.vercel.app)
-- **Backend (Render)**: [https://your-backend-api-url.com](https://online-lecture-scheduling-module-6nzr.onrender.com/)
+- **Frontend (Vercel)**: [https://online-lecture-scheduling-module-five.vercel.app](https://online-lecture-scheduling-module-five.vercel.app)  
+- **Backend (Render)**: [https://online-lecture-scheduling-module-6nzr.onrender.com](https://online-lecture-scheduling-module-6nzr.onrender.com)
 
 ---
-
 
 ## 📦 Features
 
@@ -29,35 +27,37 @@ This is a MERN stack-based online lecture scheduling system built for the Ideama
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React (Vite), Axios, CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB Atlas
-- **Authentication**: JWT-based auth
+- **Frontend**: React (Vite), Axios, CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB Atlas  
+- **Authentication**: JWT-based auth  
 - **Deployment**: Vercel (Frontend), Render (Backend)
 
 ---
 
 ## 📁 Project Structure
 
-\`\`\`
-frontend/           # React frontend (Vite)
-  └── src/
-       ├── components/
-       ├── pages/
-       └── App.jsx
+frontend/ # React frontend (Vite)
+└── src/
+├── components/
+├── pages/
+└── App.jsx
 
-backend/          # Node/Express backend
-  ├── models/
-  ├── routes/
-  ├── controllers/
-  └── server.js
-\`\`\`
+backend/ # Node/Express backend
+├── models/
+├── routes/
+├── controllers/
+└── server.js
+
+yaml
+Copy
+Edit
 
 ---
 
 ## ⚙️ Installation & Setup (for local testing)
 
-\`\`\`bash
+```bash
 # Backend setup
 cd backend
 npm install
@@ -68,39 +68,25 @@ node server.js
 cd frontend
 npm install
 npm run dev
-\`\`\`
+🌐 API Routes
+Auth
+POST /api/auth/signup – Register
 
----
+POST /api/auth/login – Login
 
-## 🌐 API Routes
+Admin
+GET /api/users?role=instructor – List instructors
 
-### Auth
-- \`POST /api/auth/signup\` – Register
-- \`POST /api/auth/login\` – Login
+POST /api/courses – Add course
 
-### Admin
-- \`GET /api/users?role=instructor\` – List instructors
-- \`POST /api/courses\` – Add course
-- \`GET /api/courses\` – List courses
-- \`POST /api/lectures\` – Assign lecture
-- \`GET /api/lectures\` – List all lectures
+GET /api/courses – List courses
 
-### Instructor
-- \`GET /api/lectures/instructor/:id\` – Instructor's lectures
+POST /api/lectures – Assign lecture
 
----
+GET /api/lectures – List all lectures
 
-## 🎥 Demo Video 
+Instructor
+GET /api/lectures/instructor/:id – Instructor's lectures
 
-[🔗 Google Drive Link to Screen Recording](https://drive.google.com/...) *(Keep it public)*
-
----
-
-
-
-## 🙋‍♂️ Author
-
-**Vinayak Gupta**  
-📧 vinayakgupta1614@gmail.com  
-📱 +91-9167140832  
-🔗 [GitHub](https://github.com/VinayakFrontend)
+🎥 Demo Video
+🔗 Google Drive Link to Screen Recording 
