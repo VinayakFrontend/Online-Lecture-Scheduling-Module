@@ -9,7 +9,7 @@ export default function AddLectureForm({ instructors }) {
   const [message, setMessage] = useState(""); // ✅ toast message
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/courses")
+    axios.get("https://online-lecture-scheduling-module-6nzr.onrender.com/api/courses")
       .then(res => setCourses(res.data));
   }, []);
 
