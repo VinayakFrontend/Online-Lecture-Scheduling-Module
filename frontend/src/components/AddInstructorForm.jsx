@@ -18,7 +18,7 @@ export default function AddInstructorForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:5000/api/instructors", form)
+    axios.post("https://online-lecture-scheduling-module-6nzr.onrender.com/api/instructors", form)
       .then(() => {
         alert("Instructor added!");
         setForm({ name: "", email: "" });
