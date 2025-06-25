@@ -11,7 +11,7 @@ export default function AddInstructorForm() {
   }, []);
 
   const fetchInstructors = () => {
-    axios.get("http://localhost:5000/api/instructors").then((res) => {
+    axios.get("https://online-lecture-scheduling-module-6nzr.onrender.com/api/instructors").then((res) => {
       setInstructors(res.data);
     });
   };
